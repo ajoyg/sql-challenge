@@ -6,10 +6,10 @@ The EmployeeDepartment.png in the EmployeeSQL folder shows the entity relationsh
 
 ## Data Engineering
 The EmployeeDeptDDL.sql script defines the table structure for the entities defined i.e. deparments, employees, dept_emp, dept_manager, salaries, and titles. The script does the following - 
-Drops the tables if they exists
-Creates the tables with the primary keys
-The recommended next step is to import data from the csv's via pgadmin and verify the import.
-Finally, it runs ALTER TABLE scripts to add the foreign ket constraints on the tables.
+* Drops the tables if they exists
+* Creates the tables with the primary keys
+* The recommended next step is to import data from the csv's via pgadmin and verify the import.
+* Finally, it runs ALTER TABLE scripts to add the foreign ket constraints on the tables.
 
 ## Data Analysis
 The EmployeeDeptQuestions.sql has the SQL scripts performs the following analysis:
